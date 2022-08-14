@@ -1,0 +1,4 @@
+*.iml
+.idea
+*.class
+*.build_artifacts.txt
