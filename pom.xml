@@ -39,7 +39,9 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
                 </executions>
                 <configuration>
                     <mainClass>${exec.mainClass}</mainClass>
-
+                    <buildArgs>
+                        <arg>-H:DashboardDump=fortune -H:+DashboardAll</arg>
+                    </buildArgs>
                 </configuration>
             </plugin>
             <plugin>
