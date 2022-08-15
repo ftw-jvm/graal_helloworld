@@ -40,7 +40,7 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
                 <configuration>
                     <mainClass>${exec.mainClass}</mainClass>
                     <buildArgs>
-                        <arg>-H:DashboardDump=fortune -H:+DashboardAll</arg>
+                        <arg>-H:DashboardDump=hello -H:+DashboardAll</arg>
                     </buildArgs>
                 </configuration>
             </plugin>
