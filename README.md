@@ -10,3 +10,5 @@ or
 ```
 mvn package
 ```
+After you build with maven, you can view the dashboard!
+https://www.graalvm.org/dashboard/
